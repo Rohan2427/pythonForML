@@ -2,3 +2,4 @@
 jenkinsJob
 KubernetesJob
 AWSjob
+Java-> .war file
