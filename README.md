@@ -1,4 +1,4 @@
-# src="https://media.giphy.com/media/l0HU7JI1nzKC7kU7S/giphy.gif" width="40"> pythonForML
+# <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="40"> pythonForML
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
