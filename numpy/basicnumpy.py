@@ -1,3 +1,5 @@
+#basics of numpy
+
 import numpy as np
 
 vec1 = np.array([3,0,6], dtype = bool)
@@ -11,3 +13,7 @@ print(ten1)
 print()
 ten2 = np.array([[[4,65,20],[1,4,0]],[[20,7,0],[3,40,27]]], dtype = bool)
 print(ten2)
+
+#np.arange
+ten3 = np.arange(6,121,6).reshape(4,5)
+print(ten3)
