@@ -24,3 +24,13 @@ print(met2)
 print()
 met3 =np.zeros((2,5))
 print(met3)
+
+
+#np.random
+f = np.random.random((2,4))
+print(f)
+print()
+
+t = np.random.random((2,4))
+print(t)
+print()
