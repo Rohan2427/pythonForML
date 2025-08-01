@@ -17,3 +17,10 @@ print(ten2)
 #np.arange
 ten3 = np.arange(6,121,6).reshape(4,5)
 print(ten3)
+
+#np.ones and np.zeros (should be used with tupple notation -> () )
+met2 = np.ones((2,5))
+print(met2)
+print()
+met3 =np.zeros((2,5))
+print(met3)
