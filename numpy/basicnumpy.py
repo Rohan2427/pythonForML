@@ -1,0 +1,13 @@
+import numpy as np
+
+vec1 = np.array([3,0,6], dtype = bool)
+print(vec1)
+print()
+met1 = np.array([[4,5,7],[0,16,4]])
+print(met1)
+print()
+ten1 = np.array([[[3,22],[0,50]],[[8,0],[0,90]]])
+print(ten1)
+print()
+ten2 = np.array([[[4,65,20],[1,4,0]],[[20,7,0],[3,40,27]]], dtype = bool)
+print(ten2)
