@@ -7,7 +7,7 @@
 Your starting point for Machine Learning with Python! 🚀 This repository contains fundamental Python programs, NumPy operations, and Pandas data manipulations to build your ML foundation.
 
 ## 🌟 Quick Peek
-<img src="https://media.giphy.com/media/3o7TKWpXc1kXwQx3iM/giphy.gif" width="800" alt="Machine Learning Visualization">
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnpoYWRwanR3c2Jva3N6b2xqZWVlZXZtYm9sY3h5OXhyN3VuaWo5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f3KwliaH4MLtli8z7D/giphy.gif" width="800" alt="Machine Learning Visualization">
 
 ## 📚 Contents
 - [Python Basics](#python-basics)
