@@ -43,3 +43,12 @@ linmet1 = np.linspace(4,40,8)
 print(linmet1)
 print(type(linmet1))
 print()
+
+
+idmet1 = np.identity(2)
+print(idmet1)
+print()
+
+idmet2 = np.identity(4)
+print(idmet2)
+print()
