@@ -38,3 +38,8 @@ print()
 linmet = np.linspace(1,200,20)
 print(linmet)
 print()
+
+linmet1 = np.linspace(4,40,8)
+print(linmet1)
+print(type(linmet1))
+print()
