@@ -34,3 +34,7 @@ print()
 t = np.random.random((2,4))
 print(t)
 print()
+
+linmet = np.linspace(1,200,20)
+print(linmet)
+print()
