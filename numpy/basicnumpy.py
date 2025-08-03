@@ -120,9 +120,14 @@ print()
 s1 = k3 + k4
 print(s1)
 
-
 #numpy array functions
 #max/min/sum/prod
+np.prod(k0)
+np.sum(k1)
+np.max(k2)
+np.min(k2)
+
+
 #mean/median/std/var
 
 #trignometric functions
