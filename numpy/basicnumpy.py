@@ -57,7 +57,7 @@ print()
 
 #ndim/shape/size/itemsize/dtype
 
-k0 = np.arange(8)
+k0 = np.arange(81)
 k1 = np.arange(14).reshape(7,2)
 k2 = np.arange(64).reshape(4,4,4)
 k6 = np.array([[[3,8],[98,2],[7,49]],[[51,19],[19,5],[40,72]]])
@@ -164,11 +164,37 @@ print(np.var(k1, axis=1))
 
 #dot product
 
+k7 = np.array([[2,3],[44,6],[7,38]])
+k8 = np.array([[37,1,3],[84,4,0]])
+np.dot(k7,k8)
+
 #log and exponent
+print(np.log(k0))
+print(np.log(k1))
+print(np.exp(k0))
 
 #round/floor/ceil
 
+k9 = np.array([[4.938367,1.5927763,1.4927763],[5.3228,4.118,1.5927763],[9.33,4.003,1.5927763]])
+print(np.floor(k9))
+print()
+print(np.ceil(k9))
+print()
+print(np.round(k9))
+
+
 #Indexing and Slicing 
+print(k1)
+print()
+k1[5,1]
+
+print(k2)
+print()
+k2[1,3,0]
+
+print(k0)
+print()
+k0[3:31:3]
 
 #Iterating numpy arrays
 
