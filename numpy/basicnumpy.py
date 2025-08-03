@@ -60,6 +60,7 @@ print()
 k0 = np.arange(8)
 k1 = np.arange(14).reshape(7,2)
 k2 = np.arange(64).reshape(4,4,4)
+k6 = np.array([[[3,8],[98,2],[7,49]],[[51,19],[19,5],[40,72]]])
 
 print(k1)
 print()
@@ -126,6 +127,16 @@ np.prod(k0)
 np.sum(k1)
 np.max(k2)
 np.min(k2)
+
+
+print(k1)
+print()
+print(np.max(k1, axis=0))
+print(np.max(k1, axis=1))
+print()
+print(np.min(k6, axis=0))
+print(np.min(k6, axis=1))
+
 
 
 #mean/median/std/var
