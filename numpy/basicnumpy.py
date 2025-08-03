@@ -102,8 +102,10 @@ r0 = k0 / 2
 print(r0)
 r0 = k0 % 2
 print(r0)
-
 #relational
+r1 = k1 < 7
+print(r1)
+
 
 #Vector Operations
 
