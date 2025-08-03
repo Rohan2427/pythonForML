@@ -144,6 +144,22 @@ print(np.median(k6))
 print(np.std(k6))
 print(np.var(k6))
 
+print(k1)
+print()
+
+print(np.mean(k1))
+print(np.mean(k1, axis=0))
+print(np.mean(k1, axis=1))
+print(np.median(k1))
+print(np.median(k1, axis=0))
+print(np.median(k1, axis=1))
+print(np.std(k1))
+print(np.std(k1, axis=0))
+print(np.std(k1, axis=1))
+print(np.var(k1))
+print(np.var(k1, axis=0))
+print(np.var(k1, axis=1))
+
 #trignometric functions
 
 #dot product
