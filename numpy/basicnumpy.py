@@ -57,6 +57,7 @@ print()
 
 #ndim/shape/size/itemsize/dtype
 
+k0 = np.arange(8)
 k1 = np.arange(14).reshape(7,2)
 k2 = np.arange(64).reshape(4,4,4)
 
@@ -64,6 +65,7 @@ print(k1)
 print()
 print(k2)
 print()
+print(k0.ndim)
 print(k1.ndim)
 print(k2.ndim)
 print()
@@ -76,25 +78,46 @@ print()
 print(k1.itemsize)
 print(k2.itemsize)
 print()
+print(k0.dtype)
 print(k1.dtype)
 print(k2.dtype)
 
 
 #Changing datatype
-
 #astype
+k2.astype(np.int32)
 
 #Array Operations
-
 #Scalar Operations
 
 #arithmetic
+
+r0 = k0 + 2
+print(r0)
+r0 = k0 * 2
+print(r0)
+r0 = k0 - 2
+print(r0)
+r0 = k0 / 2
+print(r0)
+r0 = k0 % 2
+print(r0)
 
 #relational
 
 #Vector Operations
 
 #arithmetic
+k3 = np.arange(12).reshape(6,2)
+k4 = np.random.random(12).reshape(6,2)
+
+print(k3)
+print(k4)
+print()
+
+s1 = k3 + k4
+print(s1)
+
 
 #numpy array functions
 #max/min/sum/prod
