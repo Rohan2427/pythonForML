@@ -138,8 +138,11 @@ print(np.min(k6, axis=0))
 print(np.min(k6, axis=1))
 
 
-
 #mean/median/std/var
+print(np.mean(k6))
+print(np.median(k6))
+print(np.std(k6))
+print(np.var(k6))
 
 #trignometric functions
 
