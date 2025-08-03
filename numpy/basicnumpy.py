@@ -196,6 +196,30 @@ print(k0)
 print()
 k0[3:31:3]
 
+
+k9 = np.array([[2,95,3,88],[3,94,13,55],[2,836,2,0],[39,74,0,25],[5,3,2,22],[7,3,98,2]])
+print(k9)
+print()
+k9[:,2]
+
+print(k9)
+print()
+k9[3:5,2:]
+
+print(k9)
+print()
+k9[2:4,1:3]
+
+print(k9)
+print()
+k9[::5,::3]
+
+print(k2)
+print("----------------------")
+print(k2[::5,1:3,1:3])
+print("----------------------")
+print(k2[1:3:,:1:,::3])
+
 #Iterating numpy arrays
 
 #transpose
