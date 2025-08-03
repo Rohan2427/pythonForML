@@ -52,3 +52,62 @@ print()
 idmet2 = np.identity(4)
 print(idmet2)
 print()
+
+#numpy array attributes
+
+#ndim
+
+#shape
+
+#size
+
+#itemsize
+
+#dtype
+
+
+#Changing datatype
+
+#astype
+
+#Array Operations
+
+#Scalar Operations
+
+#arithmetic
+
+#relational
+
+#Vector Operations
+
+#arithmetic
+
+#numpy array functions
+#max/min/sum/prod
+#mean/median/std/var
+
+#trignometric functions
+
+#dot product
+
+#log and exponent
+
+#round/floor/ceil
+
+#Indexing and Slicing 
+
+#Iterating numpy arrays
+
+#transpose
+
+#ravel
+
+#Stacking
+#horizontal stacking
+#vertical stacking
+
+#Spliting
+#horizontal split 
+#vartical split
+
+
