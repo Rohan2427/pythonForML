@@ -238,9 +238,25 @@ np.ravel(k2)
 #Stacking
 #horizontal stacking
 #vertical stacking
+print(k9)
+print()
+k10 = np.arange(24).reshape(6,4)
+print(k10)
+
+print(np.hstack((k9,k10)))
+
+print(np.vstack((k9,k10)))
+
 
 #Spliting
 #horizontal split 
 #vartical split
+print(k9)
+print()
+k10 = np.arange(24).reshape(6,4)
+print(k10)
 
+print(np.hsplit(k9,2))
+print("--------------------------")
+print(np.vsplit(k9,2))
 
