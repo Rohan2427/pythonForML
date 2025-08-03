@@ -221,10 +221,19 @@ print("----------------------")
 print(k2[1:3:,:1:,::3])
 
 #Iterating numpy arrays
+for i in np.nditer(k1):
+  print(i)
 
 #transpose
+print(k1)
+np.transpose(k1)
+
+print(k9)
+k9.T
 
 #ravel
+print(k2)
+np.ravel(k2)
 
 #Stacking
 #horizontal stacking
