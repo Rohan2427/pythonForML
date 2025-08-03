@@ -55,15 +55,24 @@ print()
 
 #numpy array attributes
 
-#ndim
+#ndim/shape/size/itemsize/dtype
 
-#shape
-
-#size
-
-#itemsize
-
-#dtype
+k1 = np.arange(14).reshape(7,2)
+k2 = np.arange(64).reshape(4,4,4)
+print(k1)
+print()
+print(k2)
+print()
+print(k1.ndim)
+print()
+print(k1.shape)
+print()
+print(k1.size)
+print()
+print(k1.itemsize)
+print()
+print(k1.dtype)
+print(k2.dtype)
 
 
 #Changing datatype
