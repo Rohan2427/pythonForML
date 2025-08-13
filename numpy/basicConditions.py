@@ -8,7 +8,7 @@ print()
 print(m1)
 
 #2. Ask user to input two numbers a, b. Write a program to generate a random array of shape (a, b) and print the array and avg of the array.
-x,y = map(input("Enter two numbers. ").split())
+x,y = map(int, input("Enter two numbers. ").split())
 v1 = np.random.random((x,y))
 print(v1)
 print()
